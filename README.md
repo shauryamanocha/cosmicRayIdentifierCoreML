@@ -1,3 +1,5 @@
+#This repo uses apple's example coreML model app
+
 # Classifying Images with Vision and Core ML
 
 Preprocess photos using the Vision framework and classify them with a Core ML model.
