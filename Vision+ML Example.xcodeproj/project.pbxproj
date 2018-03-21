@@ -13,7 +13,7 @@
 		11063F691EC0EECC0033EE6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11063F681EC0EECC0033EE6D /* Assets.xcassets */; };
 		11063F741EC0F5270033EE6D /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11063F731EC0F5270033EE6D /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
 		113695D81EC1151400CA6C43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 113695D61EC1151400CA6C43 /* LaunchScreen.storyboard */; };
-		C89947DA1F4639D6005C0A19 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C89947D91F4639A8005C0A19 /* MobileNet.mlmodel */; };
+		51BE1ECB206186E400249672 /* RayorNoise.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 51BE1ECA206186E400249672 /* RayorNoise.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,9 +26,9 @@
 		11063F731EC0F5270033EE6D /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
 		113695D71EC1151400CA6C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C20A515D4B2C0948FB5983F /* SampleCode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
-		C5F05BC3F43CDD1243BD2BF8 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
+		51BE1ECA206186E400249672 /* RayorNoise.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = RayorNoise.mlmodel; path = ../../MLClassifier/RayorNoise.mlmodel; sourceTree = "<group>"; };
+		C5F05BC3F43CDD1243BD2BF8 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		C858E5CC1ECA99CC006C5CAA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		C89947D91F4639A8005C0A19 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MobileNet.mlmodel; path = Model/MobileNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +67,8 @@
 				11063F611EC0EECC0033EE6D /* AppDelegate.swift */,
 				11063F631EC0EECC0033EE6D /* ImageClassificationViewController.swift */,
 				11063F731EC0F5270033EE6D /* CGImagePropertyOrientation+UIImageOrientation.swift */,
-				C89947D91F4639A8005C0A19 /* MobileNet.mlmodel */,
 				11063F651EC0EECC0033EE6D /* Main.storyboard */,
+				51BE1ECA206186E400249672 /* RayorNoise.mlmodel */,
 				C82A1C951F1809F5005996F6 /* Supporting Files */,
 			);
 			path = "Vision+ML Example";
@@ -79,7 +79,6 @@
 			children = (
 				C5F05BC3F43CDD1243BD2BF8 /* LICENSE.txt */,
 			);
-			name = LICENSE;
 			path = LICENSE;
 			sourceTree = "<group>";
 		};
@@ -172,8 +171,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C89947DA1F4639D6005C0A19 /* MobileNet.mlmodel in Sources */,
 				11063F741EC0F5270033EE6D /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */,
+				51BE1ECB206186E400249672 /* RayorNoise.mlmodel in Sources */,
 				11063F641EC0EECC0033EE6D /* ImageClassificationViewController.swift in Sources */,
 				11063F621EC0EECC0033EE6D /* AppDelegate.swift in Sources */,
 			);
@@ -319,7 +318,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COREML_CODEGEN_LANGUAGE = Swift;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 29AWWVJCS9;
 				INFOPLIST_FILE = "Vision+ML Example/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Vision-ML-Example${SAMPLE_CODE_DISAMBIGUATOR}";
@@ -336,7 +335,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COREML_CODEGEN_LANGUAGE = Swift;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 29AWWVJCS9;
 				INFOPLIST_FILE = "Vision+ML Example/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Vision-ML-Example${SAMPLE_CODE_DISAMBIGUATOR}";
